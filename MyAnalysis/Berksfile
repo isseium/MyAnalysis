@@ -1,0 +1,7 @@
+source "https://supermarket.getchef.com"
+
+cookbook 'yum', git: "git@github.com:opscode-cookbooks/yum.git"
+cookbook 'rstudio', git: "git@github.com:takemikami/chef-rstudio.git"
+
+# cookbook 'hadoop', '~> 1.3.2'
+# cookbook 'rstudio-chef', git: 'git@github.com:sprintly/rstudio-chef.git'
